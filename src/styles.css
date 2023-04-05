@@ -4,10 +4,30 @@
   --redish-color: #da9c9b;
   --peach-color: #f5b7a5;
   --light-color: #f7e8dc;
+  --light-color-main: #f2ece6;
+  --blue-color1: #87e5e7;
+  --blue-color2: #99ced5;
+  --blue-color3: #abb9c3;
+  --pink-color1: #e4768d;
+  --pink-color2: #d18c9f;
+  --pink-color3: #bda2b1;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-body {
+.navbar-light {
+  color: #f2ece6;
+}
+
+.bg-light {
+  background-color: #f2ece6 !important;
+}
+
+.nav-logo {
+  max-width: 150px;
+}
+
+.container {
   margin: 60px auto;
   max-width: 700px;
 }
@@ -26,12 +46,12 @@ h1 {
 
 h2 {
   font-size: 48px;
-  color: var(--secondary-color);
+  color: var(--pink-color1);
 }
 
 h3 {
   font-size: 17px;
-  color: var(--peach-color);
+  color: var(--blue-color2);
   opacity: 0.7;
 }
 
@@ -50,14 +70,14 @@ h3 {
 }
 
 .contact-link {
-  background: var(--redish-color);
+  background: var(--blue-color1);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
 .about-link {
-  color: var(--redish-color);
-  border: 1px solid var(--redish-color);
+  color: var(--blue-color1);
+  border: 1px solid var(--blue-color1);
   box-shadow: var(--box-shadow);
 }
 
