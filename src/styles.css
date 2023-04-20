@@ -1,3 +1,5 @@
+/* -------------------- GLOBAL CSS --------------------  */
+
 :root {
   --primary-color: #6c6874;
   --secondary-color: #ae858d;
@@ -40,12 +42,12 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 60px;
   color: var(--primary-color);
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 30px;
   color: var(--pink-color1);
 }
 
@@ -55,56 +57,57 @@ h3 {
   opacity: 0.7;
 }
 
-.link-buttons {
+.contact-icons {
+  color: #6c6874;
+  font-size: 40px;
+  text-align: center;
   display: flex;
-  margin-top: 40px;
+  justify-content: space-around;
+}
+
+/* -------------------- HOMEPAGE CSS --------------------  */
+
+.heading {
+  padding-bottom: 50px;
+}
+
+.link-buttons {
   justify-content: center;
+  background: var(--blue-color1);
+  box-shadow: var(--box-shadow);
+  color: white;
+  max-width: 200px;
+  border-radius: 10px;
+  margin-top: none;
+  padding: 10px 10px;
+  text-align: center;
 }
 
 .link-buttons a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
 
-.contact-link {
-  background: var(--blue-color1);
-  box-shadow: var(--box-shadow);
-  color: white;
+/* -------------------- ABOUT ME CSS --------------------  */
+
+#profile-picture {
+  border-radius: 50%;
 }
 
-.about-link {
-  color: var(--blue-color1);
-  border: 1px solid var(--blue-color1);
-  box-shadow: var(--box-shadow);
+/* -------------------- MY WORK CSS --------------------  */
+
+/* -------------------- CONTACT CSS --------------------  */
+
+.contact-container {
+  border: 1px solid var(--light-color);
+  border-radius: 30px;
+  padding: 50px 50px;
 }
 
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
   display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  margin: 10px;
-  max-width: 270px;
-}
-
-p {
-  background: var(--light-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 .email-link {
