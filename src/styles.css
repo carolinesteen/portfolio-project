@@ -160,7 +160,6 @@ p {
   border-radius: 30px;
   padding: 50px 30px;
   justify-content: center;
-  width: fit-content;
 }
 
 /* -------------------- MEDIA QUIRY --------------------  */
@@ -169,7 +168,7 @@ p {
     font-size: 50px;
   }
   .heading {
-    padding: 0 5px;
+    padding: 50px 5px;
   }
   .heading h1 {
     font-size: 50px;
