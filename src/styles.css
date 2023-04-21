@@ -118,19 +118,21 @@ p {
 
 .link-buttons {
   justify-content: center;
-  background: var(--blue-color1);
   box-shadow: var(--box-shadow);
-  color: white;
+
+  border: 1px solid #9875f2;
   max-width: 200px;
   border-radius: 10px;
   margin-top: none;
   padding: 10px 10px;
   text-align: center;
+  color: #9875f2;
 }
 
 .link-buttons a {
   text-decoration: none;
   text-transform: capitalize;
+  color: #9875f2;
 }
 
 /* -------------------- ABOUT ME CSS --------------------  */
