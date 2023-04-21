@@ -8,7 +8,7 @@
   --light-color: #f7e8dc;
   --light-color-main: #f2ece6;
   --blue-color1: #87e5e7;
-  --blue-color2: #99ced5;
+  --blue-color2: #49beb7;
   --blue-color3: #abb9c3;
   --pink-color1: #e4768d;
   --pink-color2: #d18c9f;
@@ -68,6 +68,11 @@ p {
   font-size: 15px;
 }
 
+.subheadings h2 {
+  font-size: 20px;
+  color: var(--blue-color3);
+}
+
 .body {
   border: 1px solid rgb(204, 203, 203);
   border-radius: 30px;
@@ -90,8 +95,22 @@ p {
   padding: 10px;
 }
 
-.weather-link {
+.footer-link {
+  text-decoration: none;
+  color: var(--blue-color2);
+}
+
+.btn-branding {
+  background: var(--blue-color2);
+  border-radius: 4px;
   color: white;
+  font-size: 15px;
+  line-height: 27px;
+  padding: 10px 10px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+
+  max-width: 200px;
 }
 
 /* -------------------- HOMEPAGE CSS --------------------  */
@@ -101,19 +120,6 @@ p {
   padding-top: 100px;
   background: #f8f6f5;
   text-align: center;
-}
-
-.btn-branding {
-  background: var(--pink-color1);
-  border-radius: 4px;
-  color: white;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  box-shadow: var(--box-shadow);
-  margin-top: 30px;
-
-  max-width: 200px;
 }
 
 .link-buttons {
@@ -141,6 +147,10 @@ p {
   border-radius: 50%;
 }
 
+.about-me h3 {
+  text-align: left;
+}
+
 /* -------------------- MY WORK CSS --------------------  */
 
 /* -------------------- CONTACT CSS --------------------  */
@@ -148,7 +158,45 @@ p {
 .contact-container {
   border: 1px solid var(--light-color);
   border-radius: 30px;
-  padding: 50px 50px;
+  padding: 50px 30px;
+  justify-content: center;
+  width: fit-content;
+}
+
+/* -------------------- MEDIA QUIRY --------------------  */
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 50px;
+  }
+  .heading {
+    padding: 0 5px;
+  }
+  .heading h1 {
+    font-size: 50px;
+  }
+  .btn-branding {
+    margin-top: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-icons {
+    font-size: 20px;
+  }
+  .work-inquiry {
+    margin-bottom: 30px;
+  }
+  .about-me {
+    text-align: center;
+  }
+
+  .about-me h3 {
+    text-align: center;
+  }
+
+  #profile-picture {
+    display: block;
+  }
 }
 
 .homepage-link {
