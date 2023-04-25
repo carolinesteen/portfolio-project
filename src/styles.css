@@ -81,13 +81,14 @@ p {
 
 .contact-icons {
   color: #6c6874;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding: 30px;
 }
 
 .contact-icons ul {
   list-style-type: none;
+  padding-left: 0;
 }
 
 .contact-icons li {
@@ -98,6 +99,12 @@ p {
 .contact-icons li a {
   text-decoration: none;
   color: #6c6874;
+  /* background: var(--light-color-main);
+  padding: 5px;
+  border-radius: 50px; */
+}
+.contact-icons li a:hover {
+  color: var(--blue-color1);
 }
 
 .footer-link {
@@ -163,8 +170,7 @@ p {
 .contact-container {
   border: 1px solid var(--light-color);
   border-radius: 30px;
-  padding: 50px 30px;
-  justify-content: center;
+  padding: 50px 50px;
 }
 
 /* -------------------- MEDIA QUIRY --------------------  */
