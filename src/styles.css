@@ -81,7 +81,7 @@ p {
 
 .contact-icons {
   color: #6c6874;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding: 30px;
 }
@@ -93,6 +93,11 @@ p {
 .contact-icons li {
   display: inline;
   padding: 10px;
+}
+
+.contact-icons li a {
+  text-decoration: none;
+  color: #6c6874;
 }
 
 .footer-link {
